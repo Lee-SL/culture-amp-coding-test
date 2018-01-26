@@ -10,7 +10,7 @@ python3 main.py
 ```
 
 ## Development process
-Under resources folder I have used a Jupyter Notebook called scratchpad to test all my python code before imputting into the modules
+Under resources folder I have used a Jupyter Notebook called scratchpad to test all my python code before inputting into the modules
 
 ## Data Quality
 # Import
@@ -20,7 +20,7 @@ Under resources folder I have used a Jupyter Notebook called scratchpad to test 
 * Check if ratings column have a value outside of 1-5, if there is add this to the comment string.
 * Check if ratings column have a type other than integer, if there is add this to the comment string.
 
-#Concepts
+# Concepts
 ## Architecture concepts
 We want to separate import and export as classes so it is decoupled to calculations. we may want to edit calculations or replace import and export functions so we can change each component without having to change the code overall.
 
