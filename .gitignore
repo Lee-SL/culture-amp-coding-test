@@ -1,0 +1,3 @@
+# ignore run time files and cache folders 
+*.pyc
+__pycache__/
